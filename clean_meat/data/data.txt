@@ -1,0 +1,200 @@
+    "": {
+        "response_asked": None,
+        "response_type": None,
+        "text": "",
+        "responses": {}
+    },
+
+{
+    "Q1.2": {
+        "response_asked": True,
+        "response_type": "binary",
+        "text": "Please choose one of the following:",
+        "responses": {
+            "1": "I have read and understood the above information about this study and my participation, and I consent to take part.",
+            "2": "I do not consent to take part."
+        }
+    },
+    "Q2.1": {
+        "response_asked": False,
+        "response_type": None,
+        "text": "The first set of questions ask about your eating habits.",
+        "responses": {}
+    },
+    "Q2.2": {
+        "response_asked": True,
+        "response_type": "multiple_choice",
+        "text": "Which of the following do you eat at least occasionally (including in other dishes and baked goods)? Check all that apply.",
+        "responses": {
+            "1": "Beef (cow, buffalo, or other other bovine)",
+            "2": "Pork  (bacon, ham, ribs)",
+            "3": "Mutton (lamb, goat)",
+            "4": "Poultry (chicken, turkey, duck)",
+            "5": "Fish or shellfish (tuna, lobster, shrimp, oysters)",
+            "6": "Dairy products (milk, yogurt, cheese, ice cream, butter, ghee)",
+            "7": "Eggs",
+            "8": "I never eat any of the above"
+        }
+    },
+    "Q2.3": {
+        "response_asked": True,
+        "response_type": "subquestion",
+        "text": "On average, for how many meals per week do you consume meat (including seafood)?",
+        "questions": {
+            "1": "For breakfast",
+            "2": "For lunch",
+            "3": "For dinner"
+        },
+        "responses": {
+            "0": "0", 
+            "1": "1", 
+            "2": "2", 
+            "3": "3", 
+            "4": "4", 
+            "5": "5", 
+            "6": "6", 
+            "7": "7"
+        }
+    },
+    "Q3.1": {
+        "response_asked": True,
+        "response_type": "subquestion",
+        "text": "To what extent do you agree or disagree with the following statements?",
+        "questions": {
+            "1": "I am constantly sampling new and different foods.",
+            "2": "I don’t trust new foods.",
+            "3": "If I don’t know what a food is, I won’t try it.",
+            "4": "I like foods from different cultures.",
+            "5": "Foods from different cultures look too weird to eat.",
+            "6": "At dinner parties, I will try a new food.",
+            "7": "I am afraid to eat things I have never had before.",
+            "8": "I am very particular about the foods I eat.",
+            "9": "I will eat almost anything.",
+            "10": "I like to try restaurants that serve food from different cultures."
+        },
+        "responses": {
+            "1": "Strongly disagree",
+            "2": "Somewhat disagree",
+            "3": "Neutral",
+            "4": "Somewhat agree",
+            "5": "Strongly agree"
+        }
+    },
+    "Q3.2": {
+        "response_asked": True,
+        "response_type": "quality_control",
+        "correct": 3,
+        "text": "What does the following sentence imply?",
+        "responses": {
+            "1": "They only like cars.",
+            "2": "They do not like any other cars.",
+            "3": "They do not have two cars.",
+            "4": "They have a big family."
+        }
+    },
+    "Q4.1": {
+        "response_asked": True,
+        "response_type": "subquestion",
+        "text": "To what extent do you agree or disagree with the following statements?",
+        "questions": {
+            "Q4.1_1": "To eat meat is one of the good pleasures in life.",
+            "Q4.1_2": "Meat is irreplaceable in my diet.",
+            "Q4.1_3": "According to our position in the food chain, we have the right to eat meat.",
+            "Q4.1_4": "I feel bad when I think of eating meat.",
+            "Q4.1_5": "I love meals with meat.",
+            "Q4.1_6": "To eat meat is disrespectful towards life and the environment.",
+            "Q4.1_7": "To eat meat is an unquestionable right of every person.",
+            "Q4.1_8": "I'm a big fan of meat.",
+            "Q4.1_9": "If I couldn't eat meat I would feel weak."
+        },
+        "responses": {
+            "1": "Strongly disagree",
+            "2": "Somewhat disagree",
+            "3": "Neutral",
+            "4": "Somewhat agree",
+            "5": "Strongly agree"
+        }
+    },
+    "Q4.2": {
+        "response_asked": True,
+        "response_type": quality_control,
+        "text": "What were you doing 200 years ago? ",
+        "responses": {
+            "1": "I was not born.",
+            "2": "I was working in a shipyard.",
+            "3": "I was travelling the world.",
+            "4": "I was watching a movie."
+        }
+    },
+    "Q5.1": {
+        "response_asked": True,
+        "response_type": "subquestion",
+        "text": "Conventional meat is the meat you would normally find at a grocery store, restaurant, butcher, or market.",
+        "questions": {
+            "1": "Healthy v. Unhealthy",
+            "2": "Natural v. Unnatural",
+            "3": "Good for the environment v. Bad for the environment",
+            "4": "Ethical v. Unethical",
+            "5": "Appealing v. Unappealing",
+            "6": "Tasty v. Not tasty",
+            "7": "Safe v. Unsafe",
+            "8": "Affordable v. Expensive",
+            "9": "Good for animals v. Bad for animals",
+            "10": "Sustainable as a long term food source v. Unsustainable as a long term food source",
+            "11": "Convenient v. Inconvenient",
+            "12": "Exciting v. Boring",
+            "13": "Nutritious v. Not nutritious",
+            "14": "Necessary v. Unnecessary",
+            "15": "Good v. Bad",
+            "16": "Not disgusting v. Disgusting",
+        }
+        "responses": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5"
+        }
+    },
+    "Q6.1": {
+        "response_asked": True,
+        "response_type": "binary",
+        "text": "In the next section, we're going to introduce a new concept. First, we would like to know if have you heard of the term "clean meat".",
+        "responses": {
+            '1': 'No, I haven't heard of the term, "clean meat".',
+            '2': 'Unsure',
+            '3': 'Yes, I have heard of the term, "clean meat".'
+        }
+    },
+    "": {
+        "response_asked": None,
+        "response_type": None,
+        "text": "Agricultural innovations now allow meat to be produced in new ways. We'd like your feedback on these innovations.     Please read the following description and then answer the questions below.      What is clean meat?     One food innovation is called clean meat. This type of meat is identical at the cellular level to conventional meat. This is real meat grown directly from animal cells. Clean meat is produced in a clean facility, similar to a brewery. The process does not involve raising and slaughtering farm animals. The final product has an identical taste and texture to conventional meat. Clean meat offers significant benefits for human health, the environment, and animal welfare. Several companies have already successfully produced and taste-tested clean meat. The products will be available for retail purchase in 1-5 years.",
+        "responses": {}
+    },
+    "": {
+        "response_asked": None,
+        "response_type": None,
+        "text": "",
+        "responses": {}
+    },
+    "": {
+        "response_asked": None,
+        "response_type": None,
+        "text": "",
+        "responses": {}
+    },
+    "": {
+        "response_asked": None,
+        "response_type": None,
+        "text": "",
+        "responses": {}
+    },
+}
+
+
+
+
+
+
+

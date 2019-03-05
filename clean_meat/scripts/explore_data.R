@@ -1,0 +1,13 @@
+
+oldloc <- Sys.getlocale("LC_CTYPE")
+print(oldloc)
+Sys.setlocale("LC_CTYPE", "zh_CN.UTF-8")
+
+working_dir <- "/Users/angie/Desktop/Code/in_progress/small-projects/clean_meat"
+setwd(working_dir)
+china_fp <- paste(
+  working_dir,
+  "data/Cross+Country+Survey+-+China_October+25%2C+2018_07.11.csv",
+  sep="/")
+
+df <- read.csv(china_fp,encoding = "UTF-8")
